@@ -2,11 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Domain</title>
-  <base href="/">
-
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <meta name="./theme-color" content="#333">
+
+  <title>Material Style</title>
+  <meta name="description" content="Material Style Theme">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- build:css:dist,navbar,demo <%=assets%>/css/preload.min.css -->
+  <link rel="stylesheet" href="assets/css/preload.min.css">
+  <!-- /build -->
+
+  <!-- build:css <%=assets%>/css/plugins.min.css -->
+  <link rel="stylesheet" href="assets/css/plugins.min.css">
+  <!-- /build -->
+
+  <!-- build:css:dist,navbar,demo <%=assets%>/css/style.<%=primaryColor%>.min.css -->
+  <link rel="stylesheet" href="assets/css/style.light-blue-500.min.css">
+  <!-- /build -->
+
+
+  <!-- build:remove:dist,navbar,dev -->
+  <link rel="stylesheet" href="assets/css/width-boxed.min.css" id="ms-boxed" disabled="">
+  <!-- /build -->
+
+  <!--[if lt IE 9]>
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="assets/js/html5shiv.min.js"></script>
+  <script src="assets/js/respond.min.js"></script>
+  <![endif]-->
 </head>
 <body>
   <app-root></app-root>
